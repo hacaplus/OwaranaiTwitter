@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/OwaranaiTwitter.iml" filepath="$PROJECT_DIR$/OwaranaiTwitter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bittweet-for-android.iml" filepath="$PROJECT_DIR$/bittweet-for-android.iml" />
       <module fileurl="file://$PROJECT_DIR$/owaranai/owaranai.iml" filepath="$PROJECT_DIR$/owaranai/owaranai.iml" />
     </modules>
   </component>
