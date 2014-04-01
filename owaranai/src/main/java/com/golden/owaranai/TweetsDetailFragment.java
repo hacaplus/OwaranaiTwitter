@@ -5,9 +5,6 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
-
-import com.golden.owaranai.dummy.DummyContent;
 
 /**
  * A fragment representing a single Tweets detail screen.
@@ -25,7 +22,7 @@ public class TweetsDetailFragment extends Fragment {
     /**
      * The dummy content this fragment is presenting.
      */
-    private DummyContent.DummyItem mItem;
+    //private HomeTimelineContent.DummyItem mItem;
 
     /**
      * Mandatory empty constructor for the fragment manager to instantiate the
@@ -42,7 +39,7 @@ public class TweetsDetailFragment extends Fragment {
             // Load the dummy content specified by the fragment
             // arguments. In a real-world scenario, use a Loader
             // to load content from a content provider.
-            mItem = DummyContent.ITEM_MAP.get(getArguments().getString(ARG_ITEM_ID));
+            //mItem = HomeTimelineContent.ITEM_MAP.get(getArguments().getString(ARG_ITEM_ID));
         }
     }
 
@@ -52,9 +49,9 @@ public class TweetsDetailFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_tweets_detail, container, false);
 
         // Show the dummy content as text in a TextView.
-        if (mItem != null) {
+        /*if (mItem != null) {
             ((TextView) rootView.findViewById(R.id.tweets_detail)).setText(mItem.content);
-        }
+        }*/
 
         return rootView;
     }
